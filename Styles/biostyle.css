@@ -12,11 +12,18 @@ font-style: normal;
   object-fit: cover;
   z-index: -3;
 }
-
+body {
+  background-image: url(https://imgs.search.brave.com/H2ctxBDmxRz8D3AQCOxV9_VUtSFcCpRQlt6s6qQjRTc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/NjkwMjY5MDU5MTIt/OGNkYWM2M2E4MDg0/P2ZtPWpwZyZxPTYw/Jnc9MzAwMCZhdXRv/PWZvcm1hdCZmaXQ9/Y3JvcCZpeGxpYj1y/Yi00LjEuMCZpeGlk/PU0zd3hNakEzZkRC/OE1IeHpaV0Z5WTJo/OE1ueDhZbXgxWlNV/eU1IZGhkbVZ6ZkdW/dWZEQjhmREI4Zkh3/dw);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .portrait {
+  display: flex;
+  flex-grow: 1;
     padding: 30px;
-    background-color: rgba(255, 255, 255, 0.452);
-  height: 500px;
+    background-color: rgba(255, 255, 255, 0.1);
+  height: 650px;
   width: auto;
   z-index: 2;
   margin: 100px;
@@ -29,7 +36,7 @@ font-style: normal;
 .name {
   align-self: flex-start;
   justify-content: center;
-    color: rgb(48, 92, 105);
+    color: rgb(255, 255, 255);
   font-size: 64px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -49,11 +56,12 @@ font-style: normal;
   display: flex;
   flex-direction: column;
 
-  background: rgba(255, 255, 255, 0.315);
+  background: rgba(255, 255, 255, 0.200);
   backdrop-filter: blur(6px);
   margin-top: 150px;
 }
 .bio p {
+  color: rgb(255, 255, 255);
     font-family: "novecento-sans", sans-serif;
     font-weight: 100;
     font-style: normal;

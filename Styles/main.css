@@ -19,6 +19,10 @@ body {
   margin: 5px;
   text-align: center;
   background-color: rgb(143, 143, 143);
+  background-image: url(https://imgs.search.brave.com/DjkiXmN67Vlrb8uCcHxEyjkg4lj188IOlyg9h3ML60M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTEuZ2lwaHkuY29t/L21lZGlhL3YxLlky/bGtQVGM1TUdJM05q/RXhNMjFzTm5vMGVt/b3hjVGh3TVhnNU9E/WTROV1IzY21SdU5X/OTJjMjEyWjNwcGNt/SnBPV2xuWVNabGNE/MTJNVjluYVdaelgz/TmxZWEpqYUNaamRE/MW4vTExZTW9EYmxW/aGhqdmpSQnRqL2dp/cGh5LmdpZg.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   color: white;
   overflow-x: hidden;
 }
@@ -66,12 +70,12 @@ h3 a:hover {
     height: 300px;
     width: 30%;
     padding: 25px;
-    background: rgb(0, 110, 255);
+    background: rgb(0, 217, 255);
     border-radius: 30%;
 }
 
 a {
-    color: rgb(0, 110, 255);
+    color: rgb(0, 217, 255);
     text-decoration: solid;
     transition: transform 0.5s ease-in-out;
 }
@@ -99,7 +103,7 @@ a:hover {
     border-left: 2px solid transparent;
 }
 .middle p:hover {
-    border-left-color: rgb(0, 110, 255);
+    border-left-color: rgb(0, 217, 255);
 }
 .background-video {
   position: fixed;

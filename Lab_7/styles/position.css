@@ -1,0 +1,88 @@
+
+body {
+    display: flex;
+    background: rgb(212, 212, 212);
+    justify-content: center;
+    align-content: center;
+    margin: 100px;
+}
+.poster {
+    background-color: rgb(132, 118, 100);
+    color: rgb(0, 0, 0);
+    position: relative;
+    height: 1000px;
+    width: 800px;
+}
+.one {
+    position: absolute;
+    font-size: 775px;
+    font-family: txc-pearl, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    left: 140px;
+    bottom: 40px;
+}
+.bottom {
+    position: absolute;
+    font-size: 18px;
+    font-family: txc-pearl, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    left: 292px;
+    bottom: 190px;
+}
+.o {
+    position: absolute;
+    color: beige;
+    font-size: 180px;
+    font-family: joc, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    left: 283px;
+    top: 520px;
+}
+.p {
+    position: absolute;
+    font-size: 450px;
+    font-family: freightdispcmp-pro, serif;
+    font-weight: 700;
+    font-style: normal;
+    left: 348px;
+    top: 300px;
+    transform: rotate(315deg);
+}
+.roun {
+    background-color: beige;
+    padding: 1px;
+    position: absolute;
+    font-family: txc-pearl, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    left: 420px;
+    top: 462px;
+    font-size: 30px;
+    transform: rotate(30deg);
+
+
+}
+.el {
+    position: absolute;
+    top: 320px;
+    left: 400px;
+    font-size: 70px;
+    font-family: txc-pearl, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.liss {
+    position: absolute;
+    top: 393px;
+    left: 470px;
+    font-size: 24px;
+    font-family: txc-pearl, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.15em;
+    transform: rotate(30deg);
+}
